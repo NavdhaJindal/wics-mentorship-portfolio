@@ -1,3 +1,32 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+.row-projects {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+​
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 40px;
+}
+​
+.card-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+​
+.card-title {
+    text-align: center;
+}
+​
+.card-desc {
+    text-align: center;
+}
