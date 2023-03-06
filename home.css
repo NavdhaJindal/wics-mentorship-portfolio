@@ -1,0 +1,27 @@
+/* hero */
+.home-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container h1 {
+    text-transform: uppercase;
+    color: orange;
+}
+
+.home-container h2 {
+    margin: 0;
+}
+
+.home-icons {
+    display: flex;
+    column-gap: 15px;
+    margin-top: 30px;
+}
+
+.home-icons img {
+    width: 30px;
+}

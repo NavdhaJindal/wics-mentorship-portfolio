@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Title is what shows up on tab bar -->
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap, icons, and font imports -->
+  
+<!--   For Project Cards -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!-- Side navigation bar -->
+  <div class="sidenav">
+    <!-- Create class nav-list to hold elements of navigation bar -->
+    <ul class="nav-list">
+      <!-- For each element in navigation bar, create a nav-link class-->
+      <li class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="#about-me">About Me</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact-me">Contact</a>
+      </li>
+    </ul>
+  </div>
+  
+  <!-- A container for all of the content of the site (anything taking up the page aside from the nav) -->
+  <div class="page-container">
+
+     <!--Home page section -->
+    <section id="putMatchingSectionIdHere" class="main-section home-background">
+
+      <!-- Contains the contact information in a header -->
+      <div class="header-contact-info">
+
+        <!-- Keeps the icon and text together as one unit; The code below creates an icon associated with an email address -->
+        <span>
+          <span class="material-icons">
+            email
+          </span>
+         kermitthefrog@uci.edu
+        </span>
+
+      </div>
+
+
+      <!-- Container is a Bootstrap class that will contain and auto-resize our content with the screen size -->
+      <div class="container">
+        
+        <!-- Home section class will contain name, social media links, and github which are organized into classes below -->
+        <div class="home-section">
+          <div class="heading-font">
+<!--             id to access message in javascript -->
+            <h3 id="message"><h3>
+          </div>
+          
+          
+
+          <h2 style="color: white;">CS Developer and Host of the Muppet Show</h2>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/kermit-frogg-810317193/">
+              <i class="social-link-icons icon-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/kermit-sad-frog">
+              <i class="social-link-icons icon-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--About me section -->
+    <section id="about-me" class="main-section section-background">
+      <div class="container">
+        <div class="page-section">
+          <h2>About Me</h2>
+          <img src="https://lh3.googleusercontent.com/Bm_gqhknP5l6y-171FLPZud3xw0gD9or6dohP4yzjFJI-jn5NmakHXFGwdE0WU2q1Tl9RXeP7NfWhixUkIIJP0K6YY5hZf4g8_5XOQ4bhdOGx7gfJZV6YQbieZFEYk69dIpLYAWcHA=w600-h315-p-k" alt="Kermit" style="float:right;width:250px;height:250px;">
+          <p>I am an extremely versatile candidate, being both a computer science developer and entertainer/show host!</p>
+
+          <p>I was born in Leland, Mississippi, alongside approximately 2,353 siblings. At the age of 12, I was the first of my siblings to leave the swamp, and one of the first frogs to talk to humans. I also am a coder on the side, but nobody really knows that about me. Learn more about my projects and experiences below!</p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <!--Feel free to add more sections for different pages below! Some examples can be education, projects, experience, etc -->
+    
+        <!--Projects section -->
+    <section id="projects" class="main-section section-background">
+      <div class="container">
+        <div class="page-section">
+          <h2>My Projects</h2>
+            <div class="row">
+              
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/2/21/Tv_muppet_show_opening.jpg" class="card-img-top" alt="Kermit in The Muppet Show">
+                <div class="card-body">
+                  <h5 class="card-title">The Muppet Show</h5>
+                  <p class="card-text">Host. Me and my fellow Muppets put on a vaudeville show at our theatre, bringing in a famous celebrity to help out for each episode.</p>
+                  <a href="https://www.imdb.com/title/tt0074028/" class="btn btn-primary">Link to project</a>
+                </div>
+              </div>
+            </div>
+              
+          <div class="col-lg-4 col-md-6 col-12 pb-5">
+          <div class="card">
+            <img src="https://static.wikia.nocookie.net/muppet/images/6/6b/KermitSesameStreet.png" class="card-img-top" alt="Kermit in Sesame Street">
+            <div class="card-body">
+              <h5 class="card-title">Sesame Street Star</h5>
+              <p class="card-text">One of the first Muppets designed and built by Jim Henson. Borgenicht calls Kermit "funny, ironic, and always the voice of reason amidst the insanity around him; the calm in the eye of the storm."</p>
+              <a href="https://muppet.fandom.com/wiki/Kermit_the_Frog_on_Sesame_Street" class="btn btn-primary">Link to project</a>
+            </div>
+          </div>
+        </div>
+     </div>
+     </div>
+    </section>
+      
+              <!--Contact section -->
+    <section id="contact-me" class="main-section section-background">
+      <div class="container">
+        <div class="page-section">
+          <h2>Contact Me</h2>
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIcJpJCmB5uBEgkIL2EmFOYjdgdi-g3E9Wlmh28UtAay3EdA/viewform?embedded=true" width="640" height="675" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+              </div>
+    </section>
+
+    
+
+  </div>
+
+</body>
+
+<!-- This is where scripts go, we add the bootstrap library JS imports here -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>
