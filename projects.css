@@ -3,30 +3,38 @@ body {
 }
 
 .row-projects {
+    /* Spaces the cards evenly across the width of the page */
     display: flex;
     justify-content: space-evenly;
+    /* Gives some space on the top and bottom of the container */
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .card {
-    width: 300px;
-    height: 400px;
-    background-color: lightgray;
-    border-radius: 20px;
-    padding: 40px;
+    /* TODO: Make width of card 300px and height of card 400px */
+
+
+    /* TODO: Change background color or card */
+
+    /* TODO: Set border radius of card to have curved edges */
+
+    /* TODO: Give padding to all four sides of card */
+
 }
 
 .card-img {
+    /* Sets dimensions of image and image cropped to fit card container without losing aspect ratio */
     width: 300px;
     height: 200px;
     object-fit: cover;
 }
-
+​
 .card-title {
-    text-align: center;
+    /* TODO: Center text of card description*/
+
 }
 
 .card-desc {
-    text-align: center;
+    /* TODO: Center text of card description */
 }
