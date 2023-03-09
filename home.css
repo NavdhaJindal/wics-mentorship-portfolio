@@ -1,6 +1,6 @@
-/* add font property to body element so the font can be applied across all texts in the page */
 body {
-    font-family: 'Inter', sans-serif;
+    /* TODO: use the font-family property if you want to customize the font */
+    /* we put this property in the body selector so that the font can be applied across all texts in the page */
 }
 
 /* container that holds the home page contents */
