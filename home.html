@@ -1,10 +1,16 @@
+<!-- every HTML file has <html>, <head>, <body> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- specifies metadata about the HTML document (typically we don't make any changes to it)-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- this is the title of the document, displayed on the tab -->
     <title>Home</title>
+
+    <!-- link the external css file(s) -->
     <link href="navbar.css" rel="stylesheet" type="text/css">
     <link href="home.css" rel="stylesheet" type="text/css">
 
@@ -17,11 +23,13 @@
 
 <body>
     <!-- navbar -->
+    <!-- <ul> is an unordered list of <li> elements -->
+    <!-- each <li> element is a tab for the different pages -->
     <nav>
         <ul>
-            <li><a href="home.html">Tab 1</a></li>
-            <li><a href="about.html">Tab 2</a></li>
-            <li><a href="projects.html">Tab 3</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
         </ul>
     </nav>
 
@@ -35,6 +43,7 @@
         <div class="home-icons">
             <!-- TODO: insert link or path to each icon -->
             <!-- each icon is an image (hence the <img> tag) in the form of a link (hence the <a> tag)-->
+            <!-- the target=_blank means that the page will be opened in a new tab -->
             <a href="https://github.com/kermit-sad-frog" target="_blank"><img src="insertGithubIcon"/></a>
             <a href="https://www.linkedin.com/in/kermit-frog-4a3b4726/" target="_blank"><img src="insertLinkedInIcon"/></a>
             <a href="mailto: thisisfake@example.com" target="_blank"><img src="insertMailIcon"/></a>

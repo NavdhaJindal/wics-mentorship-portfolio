@@ -6,10 +6,10 @@ body {
 /* container that holds the about page contents */
 .about-container {
     display: flex;
-    flex-direction: column; /* align the contents vertically */ 
+    flex-direction: column; 
     align-items: center;
     width: 25%;
-    margin: auto; /* centers the container */
+    margin: auto; 
     margin-top: 30px;
 }
 
