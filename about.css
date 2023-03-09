@@ -4,6 +4,7 @@ body {
 }
 
 /* container that holds the about page contents */
+/* the css properties here will place the div in the center (horizontally and vertically) of the entire page */
 .about-container {
     display: flex;
     flex-direction: column; 
@@ -13,9 +14,10 @@ body {
     margin-top: 30px;
 }
 
+/* the purpose of the display and width properties is for the image to fill up the about-container */
 .about-image {
-    width: 100%;
     display: block;
+    width: 100%;
     border-radius: 30px;
 }
 
