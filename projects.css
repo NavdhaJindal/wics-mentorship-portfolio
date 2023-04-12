@@ -30,3 +30,70 @@ body {
 .card-desc {
     text-align: center;
 }
+
+.project-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .project-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .project-details {
+    padding: 16px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .project-description {
+    margin-bottom: 16px;
+  }
+  
+  .project-tech {
+    font-style: italic;
+    opacity: 0.8;
+  }
+  
+  .project-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #f5f5f5;
+  }
+  
+  .like-count {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .project-actions button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
