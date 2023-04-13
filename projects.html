@@ -13,8 +13,10 @@
     <script src="https://unpkg.com/react/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
 
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
     <!-- Add your React component code -->  
-    <script type="text/babel" src="path/to/ProjectCard.js"></script>
+    <script type="text/babel" src="./ProjectCard.js"></script>
 
     <!-- import fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,22 +35,23 @@
 
     <!-- Add a container element for your React component -->
     <div id="project-card-container">
-        <!-- Render your React component in the container element -->
-        <script type="text/babel">
-            const project = {
-            imageUrl: "https://example.com/my-project.png",
-            title: "My Project",
-            description: "A description of my project",
-            tech: "React, Node.js, MongoDB",
-            likes: 42,
-            };
-        
-            ReactDOM.render(
-            <ProjectCard project={project} />,
-            document.getElementById("project-card-container")
-            );
-        </script>
     </div>
+
+    <!-- Render your React component in the container element -->
+    <script type="text/babel">
+        const project = {
+        imageUrl: "https://example.com/my-project.png",
+        title: "My Project",
+        description: "A description of my project",
+        tech: "React, Node.js, MongoDB",
+        likes: 42,
+        };
+    
+        ReactDOM.render(
+        <ProjectCard project={project} />,
+        document.getElementById("project-card-container")
+        );
+    </script>
     <!-- page content -->
     <!-- <div class="row-projects">
         <div class="card">
